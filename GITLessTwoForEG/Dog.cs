@@ -13,9 +13,9 @@ namespace GITLessTwoForEG
             public string Name { get; set; }
 
 
-            public virtual void ReactToCar()
+            public virtual void ReactToPeople()
             {
-                Console.WriteLine("Бежит за машиной");
+                Console.WriteLine("Радостно скулит");
             }
 
             public virtual void Sound()
@@ -24,3 +24,9 @@ namespace GITLessTwoForEG
             }
         }
     }
+
+
+
+// в классе Dog заменить ReactToCar на ReactToPeople, текст для вывода в консоль заменить на: радостно скулит.
+// в классе Program удалить строки 18-28
+// добавить в класс Program строку: Animal myAnimal = new() (или любую другую вариацию этой строки).
