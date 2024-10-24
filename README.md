@@ -1,5 +1,3 @@
 # FileForProject
 
-Ветка forValentine
-
-1. 
+Задачи в ветке forValentine
