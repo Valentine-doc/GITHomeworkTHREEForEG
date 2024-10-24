@@ -12,9 +12,15 @@ namespace GITLessTwoForEG
         {
             Console.WriteLine("Животное издает звуки");
         }
-        public void ReactToCar()
+        public void ReactToPeople()
         {
-            Console.WriteLine("Реагирует на машину");
+            Console.WriteLine("Реагирует на человека");
         }
     }
 }
+
+
+// в классе Animal заменить ReactToCar на ReactToPeople, текст для вывода в консоль заменить на: реагирует на человека
+// в классе Dog заменить ReactToCar на ReactToPeople, текст для вывода в консоль заменить на: радостно скулит.
+// в классе Program удалить строки 18-28
+// добавить в класс Program строку: Animal myAnimal = new() (или любую другую вариацию этой строки).

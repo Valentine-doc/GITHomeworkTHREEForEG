@@ -14,18 +14,17 @@ namespace GITLessTwoForEG
                 Breed = "Jeckrussel"
             };
 
+        Animal myAnimal = new();
 
-            Dog myDog2 = new()
-            {
-                Name = "Bazz",
-                Age = 10
-            };
+        System.Console.WriteLine(myDog1.Name);
+        myAnimal.ReactToPeople();
+        myDog1.ReactToPeople();
 
-            Console.WriteLine($"Первую мою собаку зовут {myDog1.Name}, вторую {myDog2.Name}. Они брат с сестрой, {myDog1.Name} младше, ей {myDog1.Age}, а { myDog2.Name} уже {myDog2.Age}.");
-            Console.WriteLine($"\nРеакция на машины у них разная: {myDog1.Name} начинает ");
-            myDog1.Sound();
-            Console.WriteLine($"В то время как {myDog2.Name} ");
-            myDog2.ReactToCar();
+
+// создать pull request
+
+
+            
             
         }
     }
