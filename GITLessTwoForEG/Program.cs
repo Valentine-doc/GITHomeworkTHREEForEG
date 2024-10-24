@@ -15,7 +15,13 @@ namespace GITLessTwoForEG
             };
 
         Animal myAnimal = new();
-            
+
+        System.Console.WriteLine(myDog1.Name);
+        myAnimal.ReactToPeople();
+        myDog1.ReactToPeople();
+
+
+// создать pull request
 
 
             
